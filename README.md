@@ -4,10 +4,10 @@ This project presents a Python-based simulation designed to model the spread of 
 
 ### Core Model Parameters:
 - **Infection Radius (r):** Defines the spatial range within which agents can transmit the infection.
-- **Transmission Probability (p):** Represents the likelihood of infection upon contact, where \( 0 \leq p \leq 1 \).
-- **Infection Duration (\(T\)):** The time period during which an infected agent remains contagious.
-- **Mortality Rate (m):** The probability that an infected agent succumbs to the disease, \( 0 \leq m \leq 1 \).
-- **Quarantine Response Time (\(Q\)):** Time delay before infected agents are isolated.
+- **Transmission Probability (p):** Represents the likelihood of infection upon contact, where 0 <= p <= 1 .
+- **Infection Duration (T):** The time period during which an infected agent remains contagious.
+- **Mortality Rate (m):** The probability that an infected agent succumbs to the disease,  0 <= m <= 1.
+- **Quarantine Response Time (Q):** Time delay before infected agents are isolated.
 
 The system evolves by iteratively applying these parameters, simulating real-world epidemic dynamics, such as rapid spread, self-limitation due to mortality, and the impact of quarantine measures.
 
